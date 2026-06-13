@@ -1,0 +1,6 @@
+.first-entry.home-info {
+  min-height: auto !important; /* Kills the 320px massive box height */
+  margin-bottom: var(--gap) !important; /* Brings the posts up closer */
+  padding-top: var(--gap) !important;
+  padding-bottom: 10px !important;
+}
