@@ -1,0 +1,23 @@
+baseURL = 'https://blogs.rinogodson.com/'
+locale = 'en-us'
+title = 'Rino Godson | Blog'
+theme = "PaperMod"
+
+[paramso]
+  defaultTheme = "auto" # dark/light mode based on system prefs
+  ShowReadingTime = true
+  ShowShareButtons = false
+  author = 'Rino Godson'
+  description = 'Thoughts, code, and everything in between.'
+  
+  [params.profileMode]
+    enabled = true
+    title = "Rino Godson"
+    subtitle = "he/him | programmer | youtuber"
+    
+    [[params.profileMode.buttons]]
+      name = "Read Posts"
+      url = "/posts"
+    [[params.profileMode.buttons]]
+      name = "Github"
+      url = "https://github.com/rinogodson"
